@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gamer{
+    display: flex;
+}
+.options{
+    display: flex;
+}
+.game-name{
+    font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.pink{
+    color: rgb(251, 142, 158);
+}
+.fa-youtube.red{
+    color: red;
+}
+.menu-option{
+    background-color: lightgray;
+    width: 262px;
+    display: flex;
+
+    
+}
+.margin{
+    margin-left: 25px;
+}
+.med-margin{
+    margin-left: 10px;
+}
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   justify-content: space-between;
+
+}
+.intro2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+}
+.info{
+    background-image: url(images/Group\ 14.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.end{
+    text-align: end;
+}
+.extra{
+    position: relative;
+    left: 390px;
+}
+.purple{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#F249B6, #9A55E7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.med{
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+}
+.big-margin1{
+    margin-left: 50px;
+}
+.big-margin2{
+    margin-left: 40px;
+}
+.btnmargin{
+    margin-left: 22px;
+}
+.signin{
+    background-color: #F249B6;
+    padding:  10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+.wid{
+    width: 190px;
+    text-align: center;
+}
+.gorogue{
+    background-color: lightskyblue;
+    padding:  10px 30px;
+    border-radius: 20px;
+    color: white;
+}
