@@ -64,12 +64,20 @@ body{
 .end{
     text-align: end;
 }
+.middle{
+    text-align: center;
+}
 .extra{
     position: relative;
     left: 390px;
 }
 .purple{
     font-size: 50px;
+    background: -webkit-linear-gradient(#F249B6, #9A55E7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.purple2{
     background: -webkit-linear-gradient(#F249B6, #9A55E7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,4 +112,162 @@ body{
     padding:  10px 30px;
     border-radius: 20px;
     color: white;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 10px;
+    margin-left: 50px;
+}
+.fa-play.watch{
+    position: relative;
+    right: -160px;
+    top: -220px;
+}
+.watch{
+    position: relative;
+    right: -120px;
+    top: -220px;
+    color: black;
+}
+.txt4{
+    font-size: 30px;
+}
+.info4{
+    display: flex;
+    position: relative;
+    top: 150px;
+    right: -100px;
+    text-align: end;
+}
+.intro4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 200px;
+}
+.resize{
+    height: 450px;
+}
+.pos{
+    position: relative;
+    top: -200px;
+    right: 200px;
+}
+.resize2{
+    height: 450px;
+    position: relative;
+    right: -200px;
+}
+.pos2{
+    position: relative;
+    top: -200px;
+    right: -450px;
+}
+.info5{
+    display: flex;
+    position: relative;
+    top: 150px;
+   justify-content: center;
+}
+.intro6{
+   
+    color: white;
+   background-image: linear-gradient(#FF42A5,#FF42E1);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+   
+}
+.half{
+    margin-left: 30px;
+}
+.leftsection{
+ margin-left: 20px;
+}
+.rightsection2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.role{
+    display: flex;
+    
+}
+.but{
+    border-radius: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 45px;
+    background-color: white;
+    color: #FF42A5;
+}
+.pad{
+    padding: 10px 0px;
+}
+
+.space{
+    margin-left: 10px;
+    padding: 0px 5px;
+   
+}
+.bor{
+    border-radius: 20px;
+}
+.special{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+
+}
+.intro7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.first5{
+   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.second5{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+.game-category{
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 25px;
+}
+.footer{
+    background-color: rgb(61, 4, 99);
+    color: white;
+}
+.downoptions{
+    text-align: center;
+    display: flex;
+    
+}
+.lastinfo{
+    display: flex;
+}
+.footer{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
