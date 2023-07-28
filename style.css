@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    width: 100%;
 }
 .head{
     display: flex;
@@ -38,10 +40,15 @@ body{
     margin-left: 10px;
 }
 .intro{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+}
+.info{
+    width: 50%;
 
+}
+.show{
+    width: 50%;
 }
 .intro2{
     display: grid;
@@ -145,6 +152,11 @@ body{
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 200px;
 }
+.intro5{
+    display: flex;
+    margin-bottom: 250px;
+    
+}
 .resize{
     height: 450px;
 }
@@ -156,17 +168,19 @@ body{
 .resize2{
     height: 450px;
     position: relative;
-    right: -200px;
+    right: -80px;
 }
 .pos2{
+    height: 250px;
     position: relative;
-    top: -200px;
-    right: -450px;
+    top: 80px;
+    left: -50px;
 }
 .info5{
     display: flex;
     position: relative;
     top: 150px;
+    left: 200px;
    justify-content: center;
 }
 .intro6{
@@ -258,11 +272,17 @@ body{
 }
 .downoptions{
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     
 }
+.icons{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
 .lastinfo{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .footer{
     padding: 70px;
@@ -270,4 +290,145 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width:688px) {
+    .head{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .options{
+        flex-direction: column;
+    }
+    .cent{
+        text-align: center;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .show img{
+        width: 350px;
+        position: relative;
+        right: -75px;
+    }
+    .info{
+        width: 350px;
+        position: relative;
+        top: 100px;
+        right: -85px;
+    }
+    .intro2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .show2{
+        margin-top: 50px;
+    }
+    .show2 img{
+        
+        width: 350px;
+        position: relative;
+        right: -75px;
+    }
+    .information{
+        width: 100%;
+    }
+    .end{
+        text-align: center;
+    }
+    .extra{
+        position: relative;
+        left: 120px;
+    }
+    .med{
+        font-size: 30px;
+    }
+    .videos{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 30px;
+        
+    }
+    .cent2{
+        position: relative;
+        left: -8px;
+    }
+    .cent3{
+        position: relative;
+        left: 8px;
+    }
+    .intro4{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 200px;
+    }
+    .intro5{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 200px;
+    }
+    .info4{
+        margin-bottom: 100px;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+    .resize{
+        height: 300px;
+        position: relative;
+        right: -150px;
+    }
+    .pos{
+        height: 200px;
+        top: 80px;
+    }
+    .resize2{
+        height: 280px;
+        position: relative;
+        right: -120px;
+    }
+    .pos2{
+        height: 180px;
+        top: 50px;
+        left: -230px;
+    }
+    .info5{
+        text-align: center;
+    }
+    .intro5{
+        flex-direction: column-reverse;
+    }
+    .info5{
+        top: -100px;
+        left: -5px;
+    }
+    .intro6{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .rightsection2 img{
+        width: 100%;
+    }
+    .first5{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 10px;
+        
+    }
+    .second5{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 10px;
+    }
+    .spec{
+        position: relative;
+        left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .downoptions{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .icons{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .lastinfo{
+        grid-template-columns: repeat(2,1fr);
+    }
+   
 }
